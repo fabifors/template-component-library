@@ -5,9 +5,10 @@ button {
   border: none;
   border-radius: 5px;
 
-  transition: background 200ms ease-in;
+  transition: background 200ms ease-out;
+  cursor: pointer;
 }
 
 button:hover {
-  background: rgb(27, 27, 27);
+  background: rgb(50, 50, 50);
 }
