@@ -1,6 +1,6 @@
 {
   "name": "@fabifors/tutorial-component-library",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "React Component Library",
   "scripts": {
     "rollup": "rollup -c",
