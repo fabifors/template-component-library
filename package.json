@@ -50,5 +50,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/fabifors"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-dom": "^18.2.0"
+  }
 }
