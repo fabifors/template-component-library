@@ -1,6 +1,6 @@
 {
-  "name": "tutorial-component-lib",
-  "version": "0.0.1",
+  "name": "@fabifors/tutorial-component-library",
+  "version": "0.0.2",
   "description": "React Component Library",
   "scripts": {
     "rollup": "rollup -c"
@@ -15,6 +15,7 @@
     "react": "^17.0.2",
     "rollup": "^2.60.0",
     "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.1",
     "typescript": "^4.4.4"
   },
@@ -23,5 +24,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/fabifors"
+  }
 }
