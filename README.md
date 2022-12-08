@@ -3,6 +3,8 @@ An example built following a tutorial to get a component library up and working 
 - Storybook
 - React 18
 - Emotion
+- Jest
+- Rollup
 
 ## Resources
 Links to tutorials followed:
