@@ -9,11 +9,4 @@ module.exports = {
   core: {
     builder: "@storybook/builder-webpack5",
   },
-  babel: async (options) => {
-    console.log(options);
-    return {
-      ...options,
-      // any extra options you want to set
-    };
-  }
 };
