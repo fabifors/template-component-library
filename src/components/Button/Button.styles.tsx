@@ -1,4 +1,6 @@
-button {
+import styled from "@emotion/styled";
+
+export const Button = styled.button`
   padding: 1rem 1.25rem;
   background: rgb(0, 0, 0);
   color: white;
@@ -9,8 +11,8 @@ button {
 
   transition: background 200ms ease-out;
   cursor: pointer;
-}
 
-button:hover {
-  background: rgb(50, 50, 50);
-}
+  &:hover {
+    background: rgb(50, 50, 50);
+  }
+`;
