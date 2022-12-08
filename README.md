@@ -1,4 +1,4 @@
-# Tutorial Component Library
+# Template Component Library
 An example built following a tutorial to get a component library up and working using following tech:
 - Storybook
 - React 18
