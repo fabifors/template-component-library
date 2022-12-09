@@ -1,5 +1,5 @@
 {
-  "name": "@fabifors/tutorial-component-library",
+  "name": "@{{ YOUR_GITHUB_USERNAME }}/template-component-library",
   "version": "0.1.0",
   "description": "React Component Library",
   "scripts": {
@@ -8,7 +8,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs-build"
   },
-  "author": "Fabian",
+  "author": "{{ YOUR_NAME }}",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.20.5",
@@ -51,7 +51,7 @@
   ],
   "types": "dist/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/fabifors"
+    "registry": "https://npm.pkg.github.com/{{YOUR_GITHUB_USERNAME}}"
   },
   "dependencies": {
     "react-dom": "^18.2.0"
