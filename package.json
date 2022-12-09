@@ -51,7 +51,7 @@
   ],
   "types": "dist/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/{{YOUR_GITHUB_USERNAME}}"
+    "registry": "https://npm.pkg.github.com/{{ YOUR_GITHUB_USERNAME }}"
   },
   "dependencies": {
     "react-dom": "^18.2.0"
